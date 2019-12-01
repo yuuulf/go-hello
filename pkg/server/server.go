@@ -9,8 +9,8 @@ type Server struct {
 	mux *echo.Echo
 }
 
-func (s *Server) Start() {
-	s.mux.Logger.Fatal(s.mux.Start(":1323"))
+func (s *Server) Start(port string) {
+	s.mux.Logger.Fatal(s.mux.Start(port))
 }
 
 func (s *Server) route() {

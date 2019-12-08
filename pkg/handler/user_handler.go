@@ -5,8 +5,8 @@ import (
 	"strconv"
 
 	"github.com/labstack/echo"
-	"github.com/yuuulf/go-hello/pkg/db"
-	"github.com/yuuulf/go-hello/pkg/user"
+	"github.com/yuuulf/go-simple-api/pkg/db"
+	"github.com/yuuulf/go-simple-api/pkg/user"
 )
 
 func GetUsers(c echo.Context) error {

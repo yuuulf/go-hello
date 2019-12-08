@@ -1,4 +1,4 @@
-module github.com/yuuulf/go-hello
+module github.com/yuuulf/go-simple-api
 
 go 1.13
 

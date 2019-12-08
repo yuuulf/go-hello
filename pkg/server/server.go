@@ -2,7 +2,7 @@ package server
 
 import (
 	"github.com/labstack/echo"
-	"github.com/yuuulf/go-hello/pkg/handler"
+	"github.com/yuuulf/go-simple-api/pkg/handler"
 )
 
 type Server struct {

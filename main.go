@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/yuuulf/go-hello/pkg/db"
-	"github.com/yuuulf/go-hello/pkg/server"
+	"github.com/yuuulf/go-simple-api/pkg/db"
+	"github.com/yuuulf/go-simple-api/pkg/server"
 
 	_ "github.com/go-sql-driver/mysql"
 )
